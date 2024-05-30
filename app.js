@@ -26,6 +26,7 @@ function displayPosts(posts) {
       "beforeend",
       `
       <li>${post.title.rendered}</li>
+    
       `
     )
   }
@@ -40,13 +41,14 @@ for (const post of posts) {
     "beforeend",
     /*html*/ `
     <article class="grid-item">
-      <img src="${post.acf.image}" alt="${post.title.rendered}" />
+    
+    <a href="${post.acf.link}" target="_blank"><img src="${post.acf.image}" alt="${post.title.rendered}" /></a>
+      <div class="title_link">
       <h2 class="big_title">${post.title.rendered}</h2>
+      <p class="link"><a href="${post.acf.link}" target="_blank">CHECK IT OUT HERE</a> ~ ${post.acf.tool}</p>
+      </div>
       <p class="description">${post.acf.description_}</p>
-      <p class="client">CLIENT: ${post.acf.client_}</p>
-      <p class="link"><a href="${post.acf.link}" target="_blank">LINK TO SOLUTION</a></p>
-      <p class="tool">TOOLS: ${post.acf.tool}</p>
-
+    
     </article>
   `
   );

@@ -2,17 +2,23 @@ html,
 body {
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: white;
+  font-family: "Bebas Neue", sans-serif;
+  background: linear-gradient(to bottom, #101010 60%, #726CF8);
 }
 
 a {
-  color: rgb(38, 76, 89);
+  color: aliceblue;
+  text-decoration: #726CF8;
+}
+
+a:hover {
+  color: #726CF8;
 }
 
 header {
   background-color: rgb(38, 76, 89);
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+  
+  
 }
 
 header h1 {
@@ -21,20 +27,27 @@ header h1 {
   margin: 0;
 }
 
+.little_title{
+  color: aliceblue;
+  padding-left: 13%;
+  font-size: 6em;
+  padding-top: 0;
+  
+}
 .grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 1em;
-  padding: 2em;
+  grid-template-columns: 1fr 1fr ;
+  gap: 5em;
+  padding: 20em;
 }
 
 .grid-item {
-  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
-  padding: 1.5em;
-  background-color: #f1f1f1;
+  padding: 3em;
+  background-color: none;
   transition: 0.5s;
   animation: fadeIn 0.5s;
   border-radius: 10px;
+  line-height: 3em;
 }
 
 .grid-item:hover {
@@ -43,11 +56,13 @@ header h1 {
 
 .grid-item img {
   width: 100%;
-  height: 600px;
-  object-fit: cover;
-  border-radius: 10px;
+  height: 700px;
+  object-fit: fit;
+  border-radius: 40px;
 }
-
+.grid-all{
+  line-height: 1em;
+}
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -59,27 +74,63 @@ header h1 {
 
 .description{
   font-size: 3em;
+  color: aliceblue;
+  font-family: montserrat;
 
 }
 
 .big_title{
   font-size: 4em;
+  color: aliceblue;
 }
 
 .link{
   font-size: 2em;
   text-decoration:none;
+  color: aliceblue;
 }
 
 .client{
   font-size: 2em;
+  color: aliceblue;
 }
 
 .tool{
   font-size: 2em;
+  color: aliceblue;
 }
 
 .title{
-  font-size: 8em;
-  padding-left: 1%;
+  font-size: 10em;
+  padding-top: 1em;
+  padding-left: 13%;
+  color: #726CF8;
+  
 }
+
+.myheadline{
+  line-height: 1.5em;
+}
+
+.title_link{
+  line-height: 1em;
+}
+
+.little_funny{
+  color: aliceblue;
+  padding-left: 13%;
+  font-size: 3em;
+  padding-top: 0;
+  font-family: Montserrat;
+  padding-right: 13%;
+}
+
+.trusted{
+  color: #726CF8;
+  font-family: bebas neue;
+}
+
+.trusted:hover::after {
+  content:  "- IT'S ME";
+}
+
