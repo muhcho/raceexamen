@@ -96,6 +96,7 @@ header h1 {
 .big_title{
   font-size: 4em;
   color: aliceblue;
+  line-height: normal;
 }
 
 .link{
