@@ -37,9 +37,9 @@ header h1 {
 }
 .grid {
   display: grid;
-  grid-template-columns: 1fr 1fr ;
-  gap: 5em;
-  padding: 20em;
+  grid-template-columns: 1fr 1fr 1fr  ;
+  gap: 2em;
+  padding: 2em;
   padding-top: 8em;
 }
 
