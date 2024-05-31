@@ -37,10 +37,22 @@ header h1 {
 }
 .grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr  ;
+  grid-template-columns: 1fr  ;
   gap: 2em;
   padding: 2em;
   padding-top: 8em;
+}
+
+@media (min-width: 600px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 992px) {
+  .grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
 
 .grid-item {
