@@ -29,7 +29,7 @@ header h1 {
 
 .little_title{
   color: aliceblue;
-  padding-left: 13%;
+  padding-left: 3%;
   font-size: 6em;
   line-height: normal;
   
@@ -37,7 +37,7 @@ header h1 {
 }
 .grid {
   display: grid;
-  grid-template-columns: 1fr  ;
+  grid-template-columns: 1fr 1fr ;
   gap: 2em;
   padding: 2em;
   padding-top: 8em;
@@ -119,7 +119,7 @@ header h1 {
 .title{
   font-size: 10em;
   padding-top: 1em;
-  padding-left: 13%;
+  padding-left: 3%;
   color: #726CF8;
   
 }
@@ -134,7 +134,7 @@ header h1 {
 
 .little_funny{
   color: aliceblue;
-  padding-left: 13%;
+  padding-left: 3%;
   font-size: 3em;
   padding-top: 0;
   font-family: Montserrat;
