@@ -39,6 +39,7 @@ header h1 {
   grid-template-columns: 1fr 1fr ;
   gap: 5em;
   padding: 20em;
+  padding-top: 8em;
 }
 
 .grid-item {
